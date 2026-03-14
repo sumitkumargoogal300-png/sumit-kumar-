@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my fortfolio project</title>
+    <script>
+        let num=prompt("enter the number")
+        while(num!=100){
+            // document.write("")
+            num=prompt("enter the number ")
+        }
+    </script>
+    <style>
+        
+        body{
+            margin: 0;
+            padding:0;
+            font-family: aril, sans-serif;
+            background-color: #111; 
+        }
+        nav{
+            height: 50px;
+            width: 1350px;
+            background-color: #333;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        nav a{
+            color: #f4f4f4;
+            padding: 15px;  
+        }
+        nav a:hover{
+            background-color:blue
+        }
+        .hello{
+            margin-right: 420px;
+            color:#f4f4f4;
+            font-size: 20px;
+        }
+        .hero{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:50px;
+            color: #f4f4f4
+        }
+        h1{
+            padding-left: 90px;
+        }
+        span{
+            color:darkmagenta
+        }
+        .image img{
+            height:250px;
+            width: 200px;
+            border-radius:100px;
+             object-fit: cover; 
+        }
+        .image img:hover{
+            box-shadow: 0 0 100px  blue;
+            /* transform: scale(1.1) */
+        }
+        button{
+           display:flex;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a class="hello">Sumit's portfolio</a>
+        <a href="#">profile</a>
+        <a href="#">about</a>
+        <a href="#">skils</a>
+        <a href="#">project</a>
+        <a href="#">contect me</a>
+    </nav>
+    <section class="hero">
+        <div class="text">
+            <h1>Hey! I am <span>Sumit kumar</span></h1>
+            <p>a compuer science groduate
+               possionate about transforming ideas into reality through code.</p>
+        </div>
+        <div class="image">
+            <img src="my image.jpg">
+        </div>
+    </section>
+</body>
+</html>
